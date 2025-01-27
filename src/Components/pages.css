@@ -1,0 +1,114 @@
+h2 {
+    width: 550px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 29.26px;
+    text-align: left;
+}
+
+.showcase {
+    width: 77.083%;
+    height: 30.9%;
+    top: 38.31%;
+    left: 11.458%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-container-div {
+    width: 70.2%;
+    height: 10%;
+    top: 60%;
+    left: 11%;
+    padding: 0.45vw;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 1;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.image-container-div span {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.75vw;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5%;
+}
+
+.image-container img {
+    width: 11.4vw;
+    height: 85.5%;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev {
+    display: none !important;
+}
+
+.custom-button-next {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 3.1%;
+    height: 15%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    margin-top: 7.5%;
+}
+
+.custom-button-next:hover {
+    background-color: darkgray;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.scroll-to-top {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 2.5%;
+    height: 4.3%;
+    font-size: 1vw;
+    cursor: pointer;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+    top: 708.355%;
+    left: 5%;
+}
+
+.scroll-to-top:hover {
+    background-color: darkgray;
+}
